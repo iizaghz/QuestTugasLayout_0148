@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Layout utama -->
+    <dimen name="page_top_padding">48dp</dimen>
+    <dimen name="page_horizontal_padding">12dp</dimen>
+    <dimen name="title_bottom_spacing">4dp</dimen>
+    <dimen name="subtitle_bottom_spacing">18dp</dimen>
+
+
+</resources>
