@@ -12,5 +12,8 @@
     <dimen name="card_padding">8dp</dimen>
     <dimen name="card_height">104dp</dimen>
 
-  
+    <!-- Logo -->
+    <dimen name="logo_size">56dp</dimen>
+    <dimen name="logo_horizontal_padding">4dp</dimen>
+
 </resources>
