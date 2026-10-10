@@ -24,5 +24,7 @@
     <dimen name="address_text_size">16sp</dimen>
     <dimen name="copyright_text_size">12sp</dimen>
 
-
+    <!-- Jarak teks dalam Card -->
+    <dimen name="profile_text_spacing">1dp</dimen>
+    <dimen name="copyright_bottom_padding">8dp</dimen>
 </resources>
