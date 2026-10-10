@@ -54,7 +54,14 @@ fun ProfileCard(
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {
-            
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier.size(
+                    dimensionResource(R.dimen.logo_size)
+                )
+            )
+
         }
     }
 }
