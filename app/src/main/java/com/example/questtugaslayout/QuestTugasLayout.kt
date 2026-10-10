@@ -66,6 +66,65 @@ fun QuestTugasLayout(modifier: Modifier = Modifier) {
             )
         )
 
+        Column(
+            modifier = Modifier.fillMaxWidth(),
+            verticalArrangement = Arrangement.spacedBy(
+                dimensionResource(R.dimen.card_spacing)
+            )
+        ) {
+            ProfileCard(
+                nameResId = R.string.nama_1,
+                phoneResId = R.string.telepon_1,
+                addressResId = R.string.alamat_1,
+                backgroundColorResId = R.color.card_iza,
+                addressColorResId = R.color.text_iza_address,
+                nameFontFamily = FontFamily.Cursive,
+                nameFontWeight = FontWeight.Normal
+            )
 
+            ProfileCard(
+                nameResId = R.string.nama_2,
+                phoneResId = R.string.telepon_2,
+                addressResId = R.string.alamat_2,
+                backgroundColorResId = R.color.card_putri,
+                nameFontFamily = FontFamily.Cursive,
+                addressColorResId = R.color.text_address
+            )
+
+            ProfileCard(
+                nameResId = R.string.nama_3,
+                phoneResId = R.string.telepon_3,
+                addressResId = R.string.alamat_3,
+                backgroundColorResId = R.color.card_rara,
+                addressColorResId = R.color.text_address
+            )
+
+            ProfileCard(
+                nameResId = R.string.nama_4,
+                phoneResId = R.string.telepon_4,
+                addressResId = R.string.alamat_4,
+                backgroundColorResId = R.color.card_salwa,
+                addressColorResId = R.color.text_address
+            )
+        }
+
+        Spacer(
+            modifier = Modifier.weight(1f)
+        )
+
+        Text(
+            text = stringResource(R.string.copyright),
+            fontSize = dimensionResource(
+                R.dimen.copyright_text_size
+            ).value.sp,
+            textAlign = TextAlign.Center,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(
+                    bottom = dimensionResource(
+                        R.dimen.copyright_bottom_padding
+                    )
+                )
+        )
     }
 }
