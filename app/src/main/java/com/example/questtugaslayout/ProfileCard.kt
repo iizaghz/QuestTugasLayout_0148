@@ -62,6 +62,46 @@ fun ProfileCard(
                 )
             )
 
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(
+                        horizontal = dimensionResource(
+                            R.dimen.card_padding
+                        )
+                    ),
+                verticalArrangement = Arrangement.Center,
+                horizontalAlignment = Alignment.Start
+            ) {
+                Text(
+                    text = stringResource(nameResId),
+                    modifier = Modifier.fillMaxWidth(),
+                    fontSize = dimensionResource(
+                        R.dimen.name_text_size
+                    ).value.sp,
+                    fontFamily = nameFontFamily,
+                    fontWeight = nameFontWeight,
+                    color = colorResource(R.color.text_primary)
+                )
+
+                if (phoneResId != null) {
+                    Text(
+                        text = stringResource(phoneResId),
+                        fontSize = dimensionResource(
+                            R.dimen.phone_text_size
+                        ).value.sp,
+                        color = colorResource(R.color.text_secondary)
+                    )
+                }
+
+                Text(
+                    text = stringResource(addressResId),
+                    fontSize = dimensionResource(
+                        R.dimen.address_text_size
+                    ).value.sp,
+                    color = colorResource(addressColorResId)
+                )
+            }
         }
     }
 }
