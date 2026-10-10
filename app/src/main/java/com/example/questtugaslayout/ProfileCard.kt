@@ -33,6 +33,17 @@ fun ProfileCard(
     nameFontFamily: FontFamily = FontFamily.Default,
     nameFontWeight: FontWeight = FontWeight.Bold
 ) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(dimensionResource(R.dimen.card_height)),
+        shape = RoundedCornerShape(
+            dimensionResource(R.dimen.card_corner_radius)
+        ),
+        colors = CardDefaults.cardColors(
+            containerColor = colorResource(backgroundColorResId)
+        )
+    ) {
 
         }
-    
+    }
