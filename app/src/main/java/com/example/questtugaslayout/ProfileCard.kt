@@ -102,6 +102,14 @@ fun ProfileCard(
                     color = colorResource(addressColorResId)
                 )
             }
+
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier.size(
+                    dimensionResource(R.dimen.logo_size)
+                )
+            )
         }
     }
 }
