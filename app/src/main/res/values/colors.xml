@@ -7,5 +7,10 @@
     <color name="card_rara">#1000FF</color>
     <color name="card_salwa">#006400</color>
 
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#00FFFF</color>
+    <color name="text_address">#FFFFFF</color>
+    <color name="text_iza_address">#FFFF00</color>
 
+    <color name="logo_tint">#FFFFFF</color>
 </resources>
