@@ -44,6 +44,17 @@ fun ProfileCard(
             containerColor = colorResource(backgroundColorResId)
         )
     ) {
-
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(dimensionResource(R.dimen.card_height))
+                .padding(
+                    dimensionResource(R.dimen.card_padding)
+                ),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            
         }
     }
+}
